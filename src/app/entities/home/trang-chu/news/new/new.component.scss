@@ -1,0 +1,20 @@
+button {
+    display: block;
+    margin: 0 auto
+}
+.Tintuc-icon {
+    i {
+        margin: 10px 40px 25px 0px;
+        font-size: 20px;
+        opacity: 0.5;
+        transition: all 0.2s;
+        cursor: pointer;
+        &:hover {
+            transform: scale(1.2);
+            opacity: 0.6;
+        }
+    }
+}
+.like {
+    color: blue;
+}
